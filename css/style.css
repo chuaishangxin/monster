@@ -99,3 +99,13 @@ animation-fill-mode: forwards;
 
 
 
+/*音乐*/
+/*.music{width：50px,height: 47px;position: absolute;bottom: 10px;right: 10px;}*/
+.musicrun{width: 50px;height: 47px;background: url(../img/run.png)no-repeat;position: absolute;bottom: 10px;right: 10px;z-index: 999;
+animation: 3s musicRun linear infinite;
+-webkit-animation: 3s musicRun linear infinite;
+.musicStop{background: url(../img/stop.png)no-repeat;}
+
+
+
+
