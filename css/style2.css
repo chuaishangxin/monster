@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body,div,section{margin: 0px;padding: 0px;}
+body{font-family: "microsoft yahei";}
+
+section{width: 100%;height: 100%;position: relative;}
+
+section .sectionIn{}
+
+.bgColor{background-color: #2d4081;}
+.Bg-pag1{width: 429px;height: 429px;border: 1px solid #1f2b57; background: #233264;position: absolute;top: 50%;left: 50%;margin: -214px 0px 0px -214px;border-radius: 50%;box-shadow: 0px 0px 0px 113px #283972, 0px 0px 0px 114px #223161,0px 0px 0px 193px #2a3d79,0px 0px 194px #273971,0px 0px 254px #2c3f7e,0px 0px 255px #2a3d79;}
+.Bg-start{width: 100%;height: 100%;background: url(../img/star.png)no-repeat;background-size: cover;position: absolute;}
+.main_page1{width: 429px;height: 429px;position: absolute;margin: -214px 0px 0px -214px;top: 50%;left: 50%;}
+.main_page1 .rocket{width: 165px;height: 195px;position: absolute;top: -29px;left: 48px;background: url(../img/rocket.png) no-repeat;
+-animation: 1s rocket;
+-webkit-animation: 1s rocket;}
+.main_page1 .thanks{width: 399px;height: 228px;position: absolute;top: 43px;left: 38px;background: url(../img/thanks.png) no-repeat;opacity:0;
+animation: 1s thanks;
+-webkit-animation: 1s thanks;
+animation-delay: 1s;
+-webkit-animation-delay: 1s;
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;
+}
+.main_page1 .withyou{width: 364px;height: 228px;position: absolute;top: 208px;left: 38px;background: url(../img/widthyou.png)no-repeat;opacity:0;
+animation: 1s withyou;
+-webkit-animation: 1s withyou;
+animation-delay: 1s;
+-webkit-animation-delay: 1s;
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;} 
+.main_page1 .miaov{width: 193px;height: 82px;position: absolute;top: -7px;left: 209px;background: url(../img/miaov.png)no-repeat;opacity:0;
+animation: 1s miaov;
+-webkit-animation: 1s miaov;
+animation-delay: 1s;
+-webkit-animation-delay: 1s;
+animation-fill-mode: forwards;
+-webkit-animation-fill-mode: forwards;} 
+
+.arrow{width: 90px;height: 65px;position: absolute;left: 50%;margin-left: -45px;bottom: 40px;background: url(../img/arrow2.png) no-repeat;
+animation: 1s arrow;
+-webkit-animation: 1s arrow;
+animation-iteration-count: infinite;
+-webkit-animation-iteration-count: infinite;}

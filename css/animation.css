@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+@keyframes rocket{
+	from{transform: translateX(-300px) translateY(300px);opacity: 0;}
+	to{opacity: 1;}
+}
+@-webkit-keyframes rocket{
+	from{transform: translateX(-300px) translateY(300px);opacity: 0;}
+	to{opacity: 1;}
+}
+
+@keyframes miaov{
+	from{transform: translateX(-193px) n opacity:0 ;}
+	to{opacity:1;}
+}
+@-webkit-keyframes miaov{
+	from{transform: translateX(-193px) n opacity:0 ;}
+	to{opacity:1;}
+}
+
+@keyframes thanks{
+	from{transform: translateY(100px);opacity: 0;}
+	to{transform: translateY(0px);opacity: 1;}
+}
+@-webkit-keyframes thanks{
+	from{transform: translateY(100px);opacity: 0;}
+	to{transform: translateY(0px);opacity: 1;}
+}
+
+@keyframes withyou{
+	from{transform: translateY(100px);opacity: 0;}
+	to{transform: translateY(0px);opacity: 1;}
+}
+@-webkit-keyframes withyou{
+	from{transform: translateY(100px);opacity: 0;}
+	to{transform: translateY(0px);opacity: 1;}
+}
+
+@keyframes arrow{
+	from{transform: translateY(50px);}
+	to{transform: translateY(0px);}
+}
+@-webkit-keyframes arrow{
+	from{transform: translateY(50px);}
+	to{transform: translateY(0px);}
+}
+
+
+
+/*消失动画*/
+@keyframes Bg-startOut{
+	from{}
+	to{opacity: 0;}
+}
+@-webkit-keyframes Bg-startOut{
+	from{}
+	to{opacity: 0;}
+}
+
+@keyframes Bg-pag1Out{
+	from{}
+	to{opacity: 0;}
+}
+@-webkit-keyframes Bg-pag1Out{
+	from{}
+	to{opacity: 0;}
+}
+
+@keyframes rocketOut{
+	from{}
+	to{transform: translateX(300px) translateY(-300px);opacity: 0;}
+}
+@-webkit-keyframes rocketOut{
+	from{}
+	to{transform: translateX(300px) translateY(-300px);opacity: 0;}
+}
+
+@keyframes miaovOut{
+	from{}
+	to{transform: translateX(193px);opacity:0 ;}
+}
+@-webkit-keyframes miaovOut{
+	from{}
+	to{transform: translateX(193px);opacity:0 ;}
+}
+
+@keyframes thanksOut{
+	from{}
+	to{transform: translateY(-100px);opacity: 0;}
+}
+@-webkit-keyframes thanksOut{
+	from{}
+	to{transform: translateY(-100px);opacity: 0;}
+}
+
+@keyframes withyouOut{
+	from{}
+	to{transform: translateY(-100px);opacity: 0;}
+}
+@-webkit-keyframes withyouOut{
+	from{}
+	to{transform: translateY(-100px);opacity: 0;}
+}
